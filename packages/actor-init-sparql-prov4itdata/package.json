@@ -1,0 +1,54 @@
+{
+  "name": "@prov4itdata/actor-init-sparql",
+  "version": "1.0.0",
+  "description": "A Comunica engine for PROV4ITDaTa",
+  "lsd:module": true,
+  "main": "index.js",
+  "typings": "index",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "comunica",
+    "sparql",
+    "engine",
+    "query",
+    "sparql engine",
+    "sparql query",
+    "sparql 1.1",
+    "actor",
+    "init",
+    "prov4itdata",
+    "provenance"
+  ],
+  "license": "MIT",
+  "bin": {
+    "comunica-sparql-prov4itdata": "./bin/query.js"
+  },
+  "homepage": "",
+  "files": [
+    "config",
+    "bin/**/*.d.ts",
+    "bin/**/*.js",
+    "index.js",
+    "index.d.ts",
+    "index-browser.d.ts",
+    "index-browser.js",
+    "engine-default.js"
+  ],
+  "dependencies": {
+    "@comunica/actor-http-solid-auth-fetch": "^1.0.1",
+    "@comunica/actor-init-sparql": "^1.19.0",
+    "@comunica/runner": "^1.19.0",
+    "@comunica/runner-cli": "^1.19.0"
+  },
+  "scripts": {
+    "build": "node \"../../node_modules/typescript/bin/tsc\"",
+    "validate": "npm ls",
+    "prepare": "comunica-compile-config config/config-default.json > engine-default.js",
+    "browser": "npm run prepare && \"../../node_modules/webpack/bin/webpack.js\" --config webpack.config.js --mode production"
+  },
+  "browser": {
+    "./index.js": "./index-browser.js"
+  }
+}

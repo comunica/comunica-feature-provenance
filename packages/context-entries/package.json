@@ -1,0 +1,29 @@
+{
+  "name": "@prov4itdata/context-entries",
+  "version": "1.0.0",
+  "description": "A collection of reusable Comunica context key definitions.",
+  "main": "index.js",
+  "typings": "index",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "comunica",
+    "context",
+    "entries",
+    "keys"
+  ],
+  "license": "MIT",
+  "homepage": "https://comunica.dev/",
+  "files": [
+    "components",
+    "lib/**/*.d.ts",
+    "lib/**/*.js",
+    "index.d.ts",
+    "index.js"
+  ],
+  "scripts": {
+    "build": "node \"../../node_modules/typescript/bin/tsc\"",
+    "validate": "npm ls"
+  }
+}

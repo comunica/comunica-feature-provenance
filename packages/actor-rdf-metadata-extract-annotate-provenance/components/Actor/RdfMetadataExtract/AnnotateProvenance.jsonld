@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/@prov4itdata/actor-rdf-metadata-extract-annotate-provenance/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-rdf-metadata-extract/^1.0.0/components/context.jsonld"
+  ],
+  "@id": "npmd:@prov4itdata/actor-rdf-metadata-extract-annotate-provenance",
+  "components": [
+    {
+      "@id": "carmeap:Actor/RdfMetadataExtract/AnnotateProvenance",
+      "@type": "Class",
+      "extends": "cbrme:Actor/RdfMetadataExtract",
+      "requireElement": "ActorRdfMetadataExtractAnnotateProvenance",
+      "comment": "A comunica Annotate prov RDF Metadata Extract Actor.",
+      "parameters": [
+       
+      ],
+      "constructorArguments": [
+        {
+          "@id": "carmeap:Actor/RdfMetadataExtract/AnnotateProvenance/constructorArgumentsObject",
+          "extends": "cbrme:Actor/RdfMetadataExtract/constructorArgumentsObject"
+        }
+      ]
+    }
+  ]
+}

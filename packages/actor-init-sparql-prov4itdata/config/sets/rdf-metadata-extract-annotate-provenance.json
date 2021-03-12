@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/runner/^1.0.0/components/context.jsonld",
+
+    "https://linkedsoftwaredependencies.org/bundles/npm/@prov4itdata/actor-rdf-metadata-extract-annotate-provenance/^1.0.0/components/context.jsonld",
+
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-rdf-dereference/^1.0.0/components/context.jsonld",
+
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/mediator-number/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/mediator-race/^1.0.0/components/context.jsonld",
+    {
+      "caisa": "npmd:@prov4itdata/actor-init-sparql/",
+      "files-caisa": "caisa:^1.0.0/",
+      "config-setsa": "files-caisa:config/sets/"
+    }
+  ],
+  "@id": "urn:comunica:my",
+  "actors": [
+    {
+      "@id": "config-setsa:rdf-metadata-extract-annotate-provenance.json#myRdfMetadataExtractAnnotateProvenance",
+      "@type": "ActorRdfMetadataExtractAnnotateProvenance"
+    }
+  ]
+}

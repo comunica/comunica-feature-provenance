@@ -1,0 +1,12 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/core/^1.0.0/components/context.jsonld",
+    {
+      "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
+      "carmeap": "npmd:@prov4itdata/actor-rdf-metadata-extract-annotate-provenance/",
+      "files-carmeap": "carmeap:^1.0.0/",
+
+      "ActorRdfMetadataExtractAnnotateProvenance": "carmeap:Actor/RdfMetadataExtract/AnnotateProvenance"
+    }
+  ]
+}

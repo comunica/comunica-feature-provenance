@@ -1,0 +1,9 @@
+{
+  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/@prov4itdata/actor-rdf-resolve-quad-pattern-federated/^1.0.0/components/context.jsonld",
+  "@id": "npmd:@prov4itdata/actor-rdf-resolve-quad-pattern-federated",
+  "@type": "Module",
+  "requireName": "@prov4itdata/actor-rdf-resolve-quad-pattern-federated",
+  "import": [
+    "files-carrqpf:components/Actor/RdfResolveQuadPattern/Federated.jsonld"
+  ]
+}

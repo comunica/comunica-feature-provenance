@@ -22,11 +22,11 @@ Concretely, this monorepo provides the following packages:
 ```bash
 cd ./experiments
 
-node run-experiment.js observation_records/queries/q00.rq observation_records/outputs/q00.rq-metadata.json https://ruben.verborgh.org/profile/ https://www.rubensworks.net
+node run-experiment.js observation_records/queries/q00.rq observation_records/outputs/q00-metadata.json https://ruben.verborgh.org/profile/ https://www.rubensworks.net
 
-node run-experiment.js observation_records/queries/q01.rq observation_records/outputs/q02.rq-metadata.json https://ruben.verborgh.org/profile/ https://www.rubensworks.net
+node run-experiment.js observation_records/queries/q01.rq observation_records/outputs/q01-metadata.json https://ruben.verborgh.org/profile/ https://www.rubensworks.net
 
-node run-experiment.js observation_records/queries/q02.rq observation_records/outputs/q02.rq-metadata.json https://ruben.verborgh.org/profile/ https://www.rubensworks.net
+node run-experiment.js observation_records/queries/q02.rq observation_records/outputs/q02-metadata.json https://ruben.verborgh.org/profile/ https://www.rubensworks.net
 
 ```
 ## License

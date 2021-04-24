@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-optimize-query-operation-provenance-wrapper/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-optimize-query-operation/^1.0.0/components/context.jsonld"
+  ],
+  "@id": "npmd:@comunica/actor-optimize-query-operation-provenance-wrapper",
+  "components": [
+    {
+      "@id": "caoqopw:Actor/OptimizeQueryOperation/ProvenanceWrapper",
+      "@type": "Class",
+      "extends": "cboqo:Actor/OptimizeQueryOperation",
+      "requireElement": "ActorOptimizeQueryOperationProvenanceWrapper",
+      "comment": "A comunica Provenance Wrapper Optimize Query Operation Actor.",
+      "constructorArguments": [
+        {
+          "extends": "cboqo:Actor/OptimizeQueryOperation/constructorArgumentsObject"
+        }
+      ]
+    }
+  ]
+}

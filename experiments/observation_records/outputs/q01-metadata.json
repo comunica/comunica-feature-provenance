@@ -1,0 +1,346 @@
+{
+  "totalItems": 8244,
+  "observationRecords": [
+    {
+      "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#myProjectQueryOperator",
+      "action": {
+        "operation": {
+          "type": "project",
+          "input": {
+            "type": "filter",
+            "input": {
+              "type": "bgp",
+              "patterns": [
+                {
+                  "termType": "Quad",
+                  "value": "",
+                  "subject": {
+                    "termType": "Variable",
+                    "value": "s"
+                  },
+                  "predicate": {
+                    "termType": "NamedNode",
+                    "value": "http://xmlns.com/foaf/0.1/topic_interest"
+                  },
+                  "object": {
+                    "termType": "Variable",
+                    "value": "interest"
+                  },
+                  "graph": {
+                    "termType": "DefaultGraph",
+                    "value": ""
+                  },
+                  "type": "pattern"
+                },
+                {
+                  "termType": "Quad",
+                  "value": "",
+                  "subject": {
+                    "termType": "Variable",
+                    "value": "interest"
+                  },
+                  "predicate": {
+                    "termType": "NamedNode",
+                    "value": "http://www.w3.org/2000/01/rdf-schema#label"
+                  },
+                  "object": {
+                    "termType": "Variable",
+                    "value": "interestName"
+                  },
+                  "graph": {
+                    "termType": "DefaultGraph",
+                    "value": ""
+                  },
+                  "type": "pattern"
+                }
+              ]
+            },
+            "expression": {
+              "type": "expression",
+              "expressionType": "operator",
+              "operator": "langmatches",
+              "args": [
+                {
+                  "type": "expression",
+                  "expressionType": "operator",
+                  "operator": "lang",
+                  "args": [
+                    {
+                      "type": "expression",
+                      "expressionType": "term",
+                      "term": {
+                        "termType": "Variable",
+                        "value": "interestName"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "expression",
+                  "expressionType": "term",
+                  "term": {
+                    "termType": "Literal",
+                    "value": "EN",
+                    "language": "",
+                    "datatype": {
+                      "termType": "NamedNode",
+                      "value": "http://www.w3.org/2001/XMLSchema#string"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "variables": [
+            {
+              "termType": "Variable",
+              "value": "s"
+            },
+            {
+              "termType": "Variable",
+              "value": "interestName"
+            }
+          ]
+        }
+      },
+      "recordId": 1,
+      "parentRecordId": 0,
+      "metadata": {
+        "totalItems": 8244
+      }
+    },
+    {
+      "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#myFilterQueryOperator",
+      "action": {
+        "operation": {
+          "type": "filter",
+          "input": {
+            "type": "bgp",
+            "patterns": [
+              {
+                "termType": "Quad",
+                "value": "",
+                "subject": {
+                  "termType": "Variable",
+                  "value": "s"
+                },
+                "predicate": {
+                  "termType": "NamedNode",
+                  "value": "http://xmlns.com/foaf/0.1/topic_interest"
+                },
+                "object": {
+                  "termType": "Variable",
+                  "value": "interest"
+                },
+                "graph": {
+                  "termType": "DefaultGraph",
+                  "value": ""
+                },
+                "type": "pattern"
+              },
+              {
+                "termType": "Quad",
+                "value": "",
+                "subject": {
+                  "termType": "Variable",
+                  "value": "interest"
+                },
+                "predicate": {
+                  "termType": "NamedNode",
+                  "value": "http://www.w3.org/2000/01/rdf-schema#label"
+                },
+                "object": {
+                  "termType": "Variable",
+                  "value": "interestName"
+                },
+                "graph": {
+                  "termType": "DefaultGraph",
+                  "value": ""
+                },
+                "type": "pattern"
+              }
+            ]
+          },
+          "expression": {
+            "type": "expression",
+            "expressionType": "operator",
+            "operator": "langmatches",
+            "args": [
+              {
+                "type": "expression",
+                "expressionType": "operator",
+                "operator": "lang",
+                "args": [
+                  {
+                    "type": "expression",
+                    "expressionType": "term",
+                    "term": {
+                      "termType": "Variable",
+                      "value": "interestName"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "expression",
+                "expressionType": "term",
+                "term": {
+                  "termType": "Literal",
+                  "value": "EN",
+                  "language": "",
+                  "datatype": {
+                    "termType": "NamedNode",
+                    "value": "http://www.w3.org/2001/XMLSchema#string"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "recordId": 2,
+      "parentRecordId": 1,
+      "metadata": {
+        "totalItems": 8244
+      }
+    },
+    {
+      "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#myLeftDeepSmallestBgpQueryOperator",
+      "action": {
+        "operation": {
+          "type": "bgp",
+          "patterns": [
+            {
+              "termType": "Quad",
+              "value": "",
+              "subject": {
+                "termType": "Variable",
+                "value": "s"
+              },
+              "predicate": {
+                "termType": "NamedNode",
+                "value": "http://xmlns.com/foaf/0.1/topic_interest"
+              },
+              "object": {
+                "termType": "Variable",
+                "value": "interest"
+              },
+              "graph": {
+                "termType": "DefaultGraph",
+                "value": ""
+              },
+              "type": "pattern"
+            },
+            {
+              "termType": "Quad",
+              "value": "",
+              "subject": {
+                "termType": "Variable",
+                "value": "interest"
+              },
+              "predicate": {
+                "termType": "NamedNode",
+                "value": "http://www.w3.org/2000/01/rdf-schema#label"
+              },
+              "object": {
+                "termType": "Variable",
+                "value": "interestName"
+              },
+              "graph": {
+                "termType": "DefaultGraph",
+                "value": ""
+              },
+              "type": "pattern"
+            }
+          ]
+        }
+      },
+      "recordId": 3,
+      "parentRecordId": 2,
+      "metadata": {
+        "totalItems": 8244
+      }
+    },
+    {
+      "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#myQuadPatternQueryOperator",
+      "action": {
+        "operation": {
+          "termType": "Quad",
+          "value": "",
+          "subject": {
+            "termType": "Variable",
+            "value": "s"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://xmlns.com/foaf/0.1/topic_interest"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "interest"
+          },
+          "graph": {
+            "termType": "DefaultGraph",
+            "value": ""
+          },
+          "type": "pattern"
+        }
+      },
+      "recordId": 4,
+      "parentRecordId": 3,
+      "metadata": {
+        "totalItems": 12,
+        "__prov": [
+          {
+            "resolvedFrom": "https://ruben.verborgh.org/profile/",
+            "totalItems": 6
+          },
+          {
+            "resolvedFrom": "https://www.rubensworks.net/",
+            "totalItems": 6
+          }
+        ]
+      }
+    },
+    {
+      "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#myQuadPatternQueryOperator",
+      "action": {
+        "operation": {
+          "termType": "Quad",
+          "value": "",
+          "subject": {
+            "termType": "Variable",
+            "value": "interest"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.w3.org/2000/01/rdf-schema#label"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "interestName"
+          },
+          "graph": {
+            "termType": "DefaultGraph",
+            "value": ""
+          },
+          "type": "pattern"
+        }
+      },
+      "recordId": 5,
+      "parentRecordId": 3,
+      "metadata": {
+        "totalItems": 675,
+        "__prov": [
+          {
+            "resolvedFrom": "https://ruben.verborgh.org/profile/",
+            "totalItems": 675
+          },
+          {
+            "resolvedFrom": "https://www.rubensworks.net/"
+          }
+        ]
+      }
+    }
+  ]
+}

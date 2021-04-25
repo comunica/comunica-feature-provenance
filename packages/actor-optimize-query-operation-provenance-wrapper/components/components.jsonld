@@ -1,8 +1,8 @@
 {
-  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-optimize-query-operation-provenance-wrapper/^1.0.0/components/context.jsonld",
-  "@id": "npmd:@comunica/actor-optimize-query-operation-provenance-wrapper",
+  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/@prov4itdata/actor-optimize-query-operation-provenance-wrapper/^1.0.0/components/context.jsonld",
+  "@id": "npmd:@prov4itdata/actor-optimize-query-operation-provenance-wrapper",
   "@type": "Module",
-  "requireName": "@comunica/actor-optimize-query-operation-provenance-wrapper",
+  "requireName": "@prov4itdata/actor-optimize-query-operation-provenance-wrapper",
   "import": [
     "files-caoqopw:components/Actor/OptimizeQueryOperation/ProvenanceWrapper.jsonld"
   ]

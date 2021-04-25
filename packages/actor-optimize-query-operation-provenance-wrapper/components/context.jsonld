@@ -3,7 +3,7 @@
     "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/core/^1.0.0/components/context.jsonld",
     {
       "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
-      "caoqopw": "npmd:@comunica/actor-optimize-query-operation-provenance-wrapper/",
+      "caoqopw": "npmd:@prov4itdata/actor-optimize-query-operation-provenance-wrapper/",
       "files-caoqopw": "caoqopw:^1.0.0/",
 
       "ActorOptimizeQueryOperationProvenanceWrapper": "caoqopw:Actor/OptimizeQueryOperation/ProvenanceWrapper"

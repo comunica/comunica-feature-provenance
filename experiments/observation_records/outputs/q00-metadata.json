@@ -1,22 +1,81 @@
 {
-  "totalItems": 5,
-  "__prov": [
-    {
-      "resolvedFrom": "https://ruben.verborgh.org/profile/",
-      "totalItems": 9768
-    },
-    {
-      "resolvedFrom": "https://www.rubensworks.net/",
-      "totalItems": 308
-    }
-  ],
-  "observationRecords": [
-    {
-      "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#mySliceQueryOperator",
-      "action": {
-        "operation": {
-          "type": "slice",
-          "input": {
+  "result": {
+    "totalItems": 5,
+    "__prov": [
+      {
+        "resolvedFrom": "https://ruben.verborgh.org/profile/",
+        "totalItems": 9801
+      },
+      {
+        "resolvedFrom": "https://www.rubensworks.net/",
+        "totalItems": 308
+      }
+    ],
+    "observationRecords": [
+      {
+        "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#mySliceQueryOperator",
+        "action": {
+          "operation": {
+            "type": "slice",
+            "input": {
+              "type": "project",
+              "input": {
+                "type": "bgp",
+                "patterns": [
+                  {
+                    "termType": "Quad",
+                    "value": "",
+                    "subject": {
+                      "termType": "Variable",
+                      "value": "s"
+                    },
+                    "predicate": {
+                      "termType": "Variable",
+                      "value": "p"
+                    },
+                    "object": {
+                      "termType": "Variable",
+                      "value": "o"
+                    },
+                    "graph": {
+                      "termType": "DefaultGraph",
+                      "value": ""
+                    },
+                    "type": "pattern"
+                  }
+                ]
+              },
+              "variables": [
+                {
+                  "termType": "Variable",
+                  "value": "s"
+                }
+              ]
+            },
+            "start": 0,
+            "length": 5
+          }
+        },
+        "recordId": 1,
+        "parentRecordId": 0,
+        "metadata": {
+          "totalItems": 5,
+          "__prov": [
+            {
+              "resolvedFrom": "https://ruben.verborgh.org/profile/",
+              "totalItems": 9801
+            },
+            {
+              "resolvedFrom": "https://www.rubensworks.net/",
+              "totalItems": 308
+            }
+          ]
+        }
+      },
+      {
+        "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#myProjectQueryOperator",
+        "action": {
+          "operation": {
             "type": "project",
             "input": {
               "type": "bgp",
@@ -50,33 +109,28 @@
                 "value": "s"
               }
             ]
-          },
-          "start": 0,
-          "length": 5
+          }
+        },
+        "recordId": 2,
+        "parentRecordId": 1,
+        "metadata": {
+          "totalItems": 10109,
+          "__prov": [
+            {
+              "resolvedFrom": "https://ruben.verborgh.org/profile/",
+              "totalItems": 9801
+            },
+            {
+              "resolvedFrom": "https://www.rubensworks.net/",
+              "totalItems": 308
+            }
+          ]
         }
       },
-      "recordId": 1,
-      "parentRecordId": 0,
-      "metadata": {
-        "totalItems": 5,
-        "__prov": [
-          {
-            "resolvedFrom": "https://ruben.verborgh.org/profile/",
-            "totalItems": 9768
-          },
-          {
-            "resolvedFrom": "https://www.rubensworks.net/",
-            "totalItems": 308
-          }
-        ]
-      }
-    },
-    {
-      "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#myProjectQueryOperator",
-      "action": {
-        "operation": {
-          "type": "project",
-          "input": {
+      {
+        "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#mySingleBgpQueryOperator",
+        "action": {
+          "operation": {
             "type": "bgp",
             "patterns": [
               {
@@ -101,117 +155,65 @@
                 "type": "pattern"
               }
             ]
-          },
-          "variables": [
+          }
+        },
+        "recordId": 3,
+        "parentRecordId": 2,
+        "metadata": {
+          "totalItems": 10109,
+          "__prov": [
             {
+              "resolvedFrom": "https://ruben.verborgh.org/profile/",
+              "totalItems": 9801
+            },
+            {
+              "resolvedFrom": "https://www.rubensworks.net/",
+              "totalItems": 308
+            }
+          ]
+        }
+      },
+      {
+        "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#myQuadPatternQueryOperator",
+        "action": {
+          "operation": {
+            "termType": "Quad",
+            "value": "",
+            "subject": {
               "termType": "Variable",
               "value": "s"
-            }
-          ]
-        }
-      },
-      "recordId": 2,
-      "parentRecordId": 1,
-      "metadata": {
-        "totalItems": 10076,
-        "__prov": [
-          {
-            "resolvedFrom": "https://ruben.verborgh.org/profile/",
-            "totalItems": 9768
-          },
-          {
-            "resolvedFrom": "https://www.rubensworks.net/",
-            "totalItems": 308
+            },
+            "predicate": {
+              "termType": "Variable",
+              "value": "p"
+            },
+            "object": {
+              "termType": "Variable",
+              "value": "o"
+            },
+            "graph": {
+              "termType": "DefaultGraph",
+              "value": ""
+            },
+            "type": "pattern"
           }
-        ]
-      }
-    },
-    {
-      "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#mySingleBgpQueryOperator",
-      "action": {
-        "operation": {
-          "type": "bgp",
-          "patterns": [
+        },
+        "recordId": 4,
+        "parentRecordId": 3,
+        "metadata": {
+          "totalItems": 10109,
+          "__prov": [
             {
-              "termType": "Quad",
-              "value": "",
-              "subject": {
-                "termType": "Variable",
-                "value": "s"
-              },
-              "predicate": {
-                "termType": "Variable",
-                "value": "p"
-              },
-              "object": {
-                "termType": "Variable",
-                "value": "o"
-              },
-              "graph": {
-                "termType": "DefaultGraph",
-                "value": ""
-              },
-              "type": "pattern"
+              "resolvedFrom": "https://ruben.verborgh.org/profile/",
+              "totalItems": 9801
+            },
+            {
+              "resolvedFrom": "https://www.rubensworks.net/",
+              "totalItems": 308
             }
           ]
         }
-      },
-      "recordId": 3,
-      "parentRecordId": 2,
-      "metadata": {
-        "totalItems": 10076,
-        "__prov": [
-          {
-            "resolvedFrom": "https://ruben.verborgh.org/profile/",
-            "totalItems": 9768
-          },
-          {
-            "resolvedFrom": "https://www.rubensworks.net/",
-            "totalItems": 308
-          }
-        ]
       }
-    },
-    {
-      "actor": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/config/sets/sparql-queryoperators.json#myQuadPatternQueryOperator",
-      "action": {
-        "operation": {
-          "termType": "Quad",
-          "value": "",
-          "subject": {
-            "termType": "Variable",
-            "value": "s"
-          },
-          "predicate": {
-            "termType": "Variable",
-            "value": "p"
-          },
-          "object": {
-            "termType": "Variable",
-            "value": "o"
-          },
-          "graph": {
-            "termType": "DefaultGraph",
-            "value": ""
-          },
-          "type": "pattern"
-        }
-      },
-      "recordId": 4,
-      "parentRecordId": 3,
-      "metadata": {
-        "totalItems": 10076,
-        "__prov": [
-          {
-            "resolvedFrom": "https://ruben.verborgh.org/profile/",
-            "totalItems": 9768
-          },
-          {
-            "resolvedFrom": "https://www.rubensworks.net/",
-            "totalItems": 308
-          }
-        ]
-      }
-    }
-  ]
+    ]
+  }
 }

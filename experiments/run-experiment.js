@@ -70,13 +70,15 @@ const _execute = async (experimentArgs) => {
         const [_,...processedObservationRecords] = await Promise.all(observationRecords.map(processObservationRecord));
 
         // Update metadata with processed observation records
-        const metadata = {
-          ...metadataPromise,
-          observationRecords: processedObservationRecords
+        const result = {
+          result : {
+            ...metadataPromise,
+              observationRecords: processedObservationRecords
+          }
         }
 
         // JSON string
-        const metadataJSONSerialized = JSON.stringify(metadata, null, 2);
+        const metadataJSONSerialized = JSON.stringify(result, null, 2);
         // Write metadata to file
         fs.writeFileSync(metadataOutputFilePath, metadataJSONSerialized, { encoding: 'utf8' });
       }

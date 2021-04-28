@@ -7,11 +7,11 @@
     "node": ">=8.0"
   },
   "devDependencies": {
-    "@comunica/bus-query-operation": "^1.19.0",
-    "@comunica/bus-rdf-dereference": "^1.19.0",
+    "@comunica/bus-query-operation": "^1.19.2",
+    "@comunica/bus-rdf-dereference": "^1.19.2",
     "@comunica/bus-rdf-membership-filter": "^1.0.0",
-    "@comunica/bus-rdf-metadata-extract": "^1.19.0",
-    "@comunica/core": "^1.19.0",
+    "@comunica/bus-rdf-metadata-extract": "^1.19.2",
+    "@comunica/core": "^1.19.2",
     "@rdfjs/data-model": "^1.1.1",
     "@strictsoftware/typedoc-plugin-monorepo": "^0.4.0",
     "@types/bloem": "^0.2.0",

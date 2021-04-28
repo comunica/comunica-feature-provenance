@@ -11,7 +11,7 @@ This module is a slightly updated version of [`@comunica/actor-rdf-resolve-quad-
 ## Install
 
 ```bash
-$ yarn add @comunica/actor-rdf-resolve-quad-pattern-federated
+$ yarn add @prov4itdata/actor-rdf-resolve-quad-pattern-federated
 ```
 
 ## Configure

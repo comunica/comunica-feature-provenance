@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+## [1.1.0] - 2021-04-28
+
 ### Added
 
 - Adding provenance (issue [issue](https://gitlab.ilabt.imec.be/prov4itdata-dapsi/mono-repo/-/issues/3))
@@ -18,4 +20,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Added Comunica Annotate Provenance RDF Metadata Extract Actor
 - Added Comunica Context Entries
 
+[1.1.0]: https://gitlab.ilabt.imec.be/prov4itdata-dapsi/mono-repo/-/compare/v1.0.0...v1.1.0
 [1.0.0]: https://gitlab.ilabt.imec.be/prov4itdata-dapsi/mono-repo/-/tags/v1.0.0

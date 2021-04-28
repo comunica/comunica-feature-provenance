@@ -1,6 +1,6 @@
 # Comunica Provenance Wrapper Optimize Query Operation Actor
 
-[![npm version](https://badge.fury.io/js/%40comunica%2Factor-optimize-query-operation-provenance-wrapper.svg)](https://www.npmjs.com/package/@comunica/actor-optimize-query-operation-provenance-wrapper)
+[![npm version](https://badge.fury.io/js/%40comunica%2Factor-optimize-query-operation-provenance-wrapper.svg)](https://www.npmjs.com/package/@prov4itdata/actor-optimize-query-operation-provenance-wrapper)
 
 A comunica Provenance Wrapper Optimize Query Operation Actor.
 
@@ -12,7 +12,7 @@ and should only be used by [developers that want to build their own query engine
 ## Install
 
 ```bash
-$ yarn add @comunica/actor-optimize-query-operation-provenance-wrapper
+$ yarn add @prov4itdata/actor-optimize-query-operation-provenance-wrapper
 ```
 
 ## Configure
@@ -22,18 +22,14 @@ After installing, this package can be added to your engine's configuration as fo
 {
   "@context": [
     ...
-    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-optimize-query-operation-provenance-wrapper/^1.0.0/components/context.jsonld"  
+    "https://linkedsoftwaredependencies.org/bundles/npm/@prov4itdata/actor-optimize-query-operation-provenance-wrapper/^1.0.0/components/context.jsonld"  
   ],
   "actors": [
     ...
     {
-      "@id": TODO,
+      "@id": "@prov4itdata/actor-optimize-query-operation-provenance-wrapper",
       "@type": "ActorOptimizeQueryOperationProvenanceWrapper"
     }
   ]
 }
 ```
-
-### Config Parameters
-
-TODO

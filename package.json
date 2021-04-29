@@ -52,11 +52,7 @@
     "webpack": "^4.28.3",
     "webpack-cli": "^4.0.0"
   },
-  "pre-commit": [
-    "build",
-    "lint",
-    "test"
-  ],
+ 
   "jest": {
     "transform": {
       "^.+\\.ts$": "ts-jest"

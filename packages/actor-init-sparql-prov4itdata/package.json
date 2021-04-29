@@ -1,6 +1,6 @@
 {
   "name": "@prov4itdata/actor-init-sparql",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Comunica engine for PROV4ITDaTa",
   "lsd:module": true,
   "main": "index.js",

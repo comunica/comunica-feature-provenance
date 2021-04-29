@@ -6,7 +6,10 @@
         "*.md"
       ],
       "message": "Bump to release version %s",
-      "allowBranch": "master",
+      "allowBranch": [
+        "master",
+        "release/*"
+      ],
       "npmClient": "npm"
     }
   },

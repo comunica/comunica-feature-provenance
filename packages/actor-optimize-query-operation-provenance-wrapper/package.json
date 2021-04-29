@@ -1,6 +1,6 @@
 {
   "name": "@prov4itdata/actor-optimize-query-operation-provenance-wrapper",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A provenance-wrapper optimize-query-operation actor",
   "lsd:module": "https://linkedsoftwaredependencies.org/bundles/npm/@prov4itdata/actor-optimize-query-operation-provenance-wrapper",
   "lsd:components": "components/components.jsonld",
@@ -39,12 +39,12 @@
     "index.js"
   ],
   "peerDependencies": {
-    "@comunica/core": "^1.19.2",
-    "@comunica/bus-optimize-query-operation": "^1.19.2"
+    "@comunica/bus-optimize-query-operation": "^1.19.2",
+    "@comunica/core": "^1.19.2"
   },
   "devDependencies": {
-    "@comunica/core": "^1.19.2",
-    "@comunica/bus-optimize-query-operation": "^1.19.2"
+    "@comunica/bus-optimize-query-operation": "^1.19.2",
+    "@comunica/core": "^1.19.2"
   },
   "jest": {
     "globals": {

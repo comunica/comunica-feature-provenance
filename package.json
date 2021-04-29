@@ -1,5 +1,6 @@
 {
   "private": true,
+  "repository": "https://gitlab.ilabt.imec.be/prov4itdata-dapsi/mono-repo",
   "workspaces": [
     "packages/*"
   ],

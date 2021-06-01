@@ -27,7 +27,7 @@
     "coveralls": "^3.0.0",
     "cross-fetch": "^3.0.5",
     "eslint": "^7.9.0",
-    "eslint-config-es": "3.29.2",
+    "eslint-config-es": "3.29.5",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^24.0.2",

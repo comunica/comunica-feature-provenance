@@ -2907,12 +2907,10 @@
     tslib "^2.1.0"
     webcrypto-core "^1.2.0"
 
-"@rdfjs/data-model@^1.1.1":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@rdfjs/data-model/-/data-model-1.2.0.tgz#1daa39f26d48e0ec4d6a60fc4150db7d7ef1bab2"
-  integrity sha512-6ITWcu2sr9zJqXUPDm1XJ8DRpea7PotWBIkTzuO1MCSruLOWH2ICoQOAtlJy30cT+GqH9oAQKPR+CHXejsdizA==
-  dependencies:
-    "@types/rdf-js" "*"
+"@rdfjs/data-model@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@rdfjs/data-model/-/data-model-2.0.1.tgz#410aeaea65de9bac605b63172baa64384b65ca98"
+  integrity sha512-oRDYpy7/fJ9NNjS+M7m+dbnhi4lOWYGbBiM/A+u9bBExnN6ifXUF5mUsFxwZaQulmwTDaMhKERdV6iKTBUMgtw==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"

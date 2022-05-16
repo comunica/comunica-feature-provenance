@@ -13,7 +13,7 @@
     "@comunica/bus-rdf-membership-filter": "^1.0.0",
     "@comunica/bus-rdf-metadata-extract": "^1.19.2",
     "@comunica/core": "^1.19.2",
-    "@rdfjs/data-model": "^1.1.1",
+    "@rdfjs/data-model": "^2.0.0",
     "@strictsoftware/typedoc-plugin-monorepo": "^0.4.0",
     "@types/bloem": "^0.2.0",
     "@types/jest": "^26.0.0",

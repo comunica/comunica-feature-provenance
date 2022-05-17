@@ -18,7 +18,7 @@
     "@types/bloem": "^0.2.0",
     "@types/jest": "^26.0.0",
     "@types/murmurhash": "^0.0.1",
-    "@types/node": "^14.0.0",
+    "@types/node": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^4.1.1",
     "@typescript-eslint/parser": "^4.1.1",
     "arrayify-stream": "^2.0.0",

@@ -38,9 +38,9 @@
   ],
   "dependencies": {
     "@comunica/actor-http-solid-auth-fetch": "^1.0.1",
-    "@comunica/actor-init-sparql": "^1.19.0",
-    "@comunica/runner": "^1.19.0",
-    "@comunica/runner-cli": "^1.19.0"
+    "@comunica/actor-init-sparql": "^3.0.0",
+    "@comunica/runner": "^4.0.0",
+    "@comunica/runner-cli": "^4.0.0"
   },
   "scripts": {
     "build": "node \"../../node_modules/typescript/bin/tsc\"",

@@ -35,7 +35,7 @@
     "@comunica/data-factory": "^1.17.0",
     "@types/rdf-js": "*",
     "asynciterator": "^3.0.3",
-    "rdf-data-factory": "^1.0.3",
+    "rdf-data-factory": "^2.0.0",
     "rdf-terms": "^1.6.2",
     "sparqlalgebrajs": "^2.4.0"
   },

@@ -16,7 +16,7 @@
     "@rdfjs/data-model": "^2.0.0",
     "@strictsoftware/typedoc-plugin-monorepo": "^0.4.0",
     "@types/bloem": "^0.2.0",
-    "@types/jest": "^29.0.0",
+    "@types/jest": "^30.0.0",
     "@types/murmurhash": "^2.0.0",
     "@types/node": "^22.0.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",

@@ -36,7 +36,7 @@
     "@types/rdf-js": "*",
     "asynciterator": "^3.0.3",
     "rdf-data-factory": "^1.0.3",
-    "rdf-terms": "^1.6.2",
+    "rdf-terms": "^2.0.0",
     "sparqlalgebrajs": "^2.4.0"
   },
   "peerDependencies": {
